@@ -1,0 +1,27 @@
+{
+  "name": "nexora-ai",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Nexora AI — assistente de IA para empreendedores",
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "packageManager": "pnpm@12.21.0",
+  "scripts": {
+    "build": "pnpm --filter @nexora/web build && pnpm --filter @nexora/cli build",
+    "test": "vitest run",
+    "typecheck": "tsc -p tsconfig.json && tsc -p web/tsconfig.json",
+    "nexora": "node cli/dist/index.js",
+    "web": "node cli/dist/index.js web",
+    "dev:web": "pnpm --filter @nexora/web dev",
+    "e2e": "playwright test",
+    "check": "pnpm typecheck && pnpm test"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.65.1",
+    "@types/node": "^22.20.5",
+    "typescript": "~5.9.3",
+    "vitest": "^3.2.7"
+  }
+}
