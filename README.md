@@ -1,16 +1,50 @@
-# Nexora AI
+<div align="center">
 
-> **Da ideia ao negócio, com inteligência.**
+<img src="docs/banner.svg" alt="Nexora AI" width="100%">
 
-Assistente de inteligência artificial para **empreendedores e pequenos negócios**. A Nexora ajuda a criar ideias de negócio, planos, público-alvo, nomes e slogans, estratégias de marketing, textos para redes sociais, contas financeiras, metas e melhorias.
+<br>
+
+[![CI](https://github.com/stumdev/nexora-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/stumdev/nexora-ai/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/license-MIT-B7F34A.svg)](LICENSE)
+![Node](https://img.shields.io/badge/node-%E2%89%A520-339933?logo=node.js&logoColor=white)
+![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
+![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
+![Groq](https://img.shields.io/badge/IA-Groq-F55036)
+[![PRs welcome](https://img.shields.io/badge/PRs-welcome-B7F34A.svg)](CONTRIBUTING.md)
+
+**Assistente de IA para empreendedores e pequenos negócios, no terminal e no navegador.**
+
+[Instalação](#instalação) · [Comandos](#comandos-de-negócio) · [Contribuir](CONTRIBUTING.md) · [Changelog](CHANGELOG.md)
+
+</div>
+
+---
+
+## Sobre
+
+A Nexora ajuda a criar ideias de negócio, planos, público-alvo, nomes e slogans, estratégias de marketing, textos para redes sociais, contas financeiras, metas e melhorias.
 
 > 🎓 Projeto escolar (conceito). A *Nexora Technologies* é uma empresa fictícia.
 
-Funciona em 3 passos:
+## Destaques
+
+- 💬 **Duas interfaces, um só código:** CLI estilo Claude Code e web estilo claude.ai.
+- 🧮 **Contas de verdade:** a ferramenta `Finance` calcula ponto de equilíbrio, margem e fluxo de caixa em código, sem "chutar".
+- 🪄 **12 comandos de negócio** prontos, e você pode criar os seus em Markdown.
+- 🖼️ **Cartazes** em SVG/PNG gerados pela IA, no estilo grafite e verde-lima.
+- 🔁 **Fallback automático** entre modelos gratuitos da Groq quando o limite acaba.
+- 🔒 **Privacidade:** tudo roda localmente, sem telemetria. Você aprova cada escrita de arquivo ou comando.
+- 🗂️ **Histórico em SQLite** compartilhado entre terminal e web.
+
+### Como funciona
+
+Em 3 passos:
 
 1. **Você explica** a sua ideia.
 2. **A Nexora analisa** e sugere.
 3. **Você revisa e decide.**
+
+## Telas
 
 Uma mesma base de código alimenta **duas interfaces**:
 
@@ -26,6 +60,7 @@ Uma mesma base de código alimenta **duas interfaces**:
 
 ## Sumário
 
+- [Como funciona](#como-funciona)
 - [Instalação](#instalação)
 - [Chave da Groq](#chave-da-groq)
 - [Usando o CLI](#usando-o-cli)
@@ -35,6 +70,9 @@ Uma mesma base de código alimenta **duas interfaces**:
 - [Estrutura do projeto](#estrutura-do-projeto)
 - [Testes](#testes)
 - [Limitações](#limitações)
+- [Roadmap](#roadmap)
+- [Contribuindo](#contribuindo)
+- [Licença](#licença)
 
 ## Instalação
 
@@ -185,6 +223,22 @@ Os testes não gastam a sua cota da Groq.
 - O plano gratuito da Groq tem limites; quando acabam, a Nexora troca de modelo ou pede para esperar.
 
 ---
+
+## Roadmap
+
+- [x] CLI e web com o mesmo núcleo
+- [x] Ferramenta `Finance` e cartazes (`Poster`)
+- [x] Fallback automático de modelos
+- [ ] Exportar planos em PDF
+- [ ] Suporte a outros provedores de IA
+- [ ] Modo offline com modelos locais
+- [ ] Publicação do CLI no npm
+
+Tem uma ideia? [Abra uma issue](https://github.com/stumdev/nexora-ai/issues/new/choose).
+
+## Contribuindo
+
+Contribuições são bem-vindas! Leia o [guia de contribuição](CONTRIBUTING.md) e o [código de conduta](CODE_OF_CONDUCT.md). Para falhas de segurança, veja a [política de segurança](SECURITY.md).
 
 ## Licença
 
