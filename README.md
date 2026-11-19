@@ -48,8 +48,17 @@ Em 3 passos:
 
 Uma mesma base de código alimenta **duas interfaces**:
 
-| CLI (terminal, estilo Claude Code) | Web (estilo claude.ai) |
-|---|---|
+### CLI (`nexora`)
+
+![CLI da Nexora calculando o ponto de equilíbrio](e2e/screenshots/cli-chat.png)
+
+### Web (`nexora web` → http://localhost:4173)
+
+![Tela inicial](e2e/screenshots/web-inicio.png)
+![Chat com painel de artefato](e2e/screenshots/web-chat-artefato.png)
+![Cartaz gerado](e2e/screenshots/web-cartaz.png)
+
+---|---|
 | `nexora` | `nexora web` → http://localhost:4173 |
 
 ![Tela inicial](e2e/screenshots/web-inicio.png)
