@@ -58,13 +58,6 @@ Uma mesma base de código alimenta **duas interfaces**:
 ![Chat com painel de artefato](e2e/screenshots/web-chat-artefato.png)
 ![Cartaz gerado](e2e/screenshots/web-cartaz.png)
 
----|---|
-| `nexora` | `nexora web` → http://localhost:4173 |
-
-![Tela inicial](e2e/screenshots/web-inicio.png)
-![Chat com painel de artefato](e2e/screenshots/web-chat-artefato.png)
-![Cartaz gerado](e2e/screenshots/web-cartaz.png)
-
 ---
 
 ## Sumário
