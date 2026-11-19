@@ -11,7 +11,7 @@ pnpm install
 pnpm build
 ```
 
-Você vai precisar de Node.js 20+ e de uma chave gratuita da Groq (veja o [README](README.md#chave-da-groq)).
+Você vai precisar de Node.js 22+ e de uma chave gratuita da Groq (veja o [README](README.md#chave-da-groq)).
 
 ## Fluxo
 

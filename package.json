@@ -5,7 +5,7 @@
   "description": "Nexora AI — assistente de IA para empreendedores",
   "type": "module",
   "engines": {
-    "node": ">=20"
+    "node": ">=22"
   },
   "packageManager": "pnpm@12.21.0",
   "scripts": {

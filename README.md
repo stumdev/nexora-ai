@@ -6,7 +6,7 @@
 
 [![CI](https://github.com/stumdev/nexora-ai/actions/workflows/ci.yml/badge.svg)](https://github.com/stumdev/nexora-ai/actions/workflows/ci.yml)
 [![License: MIT](https://img.shields.io/badge/license-MIT-B7F34A.svg)](LICENSE)
-![Node](https://img.shields.io/badge/node-%E2%89%A520-339933?logo=node.js&logoColor=white)
+![Node](https://img.shields.io/badge/node-%E2%89%A522-339933?logo=node.js&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-5.9-3178C6?logo=typescript&logoColor=white)
 ![React](https://img.shields.io/badge/React-18-61DAFB?logo=react&logoColor=black)
 ![Groq](https://img.shields.io/badge/IA-Groq-F55036)
@@ -76,7 +76,7 @@ Uma mesma base de código alimenta **duas interfaces**:
 
 ## Instalação
 
-Requisitos: **Node.js 20+** e **pnpm**.
+Requisitos: **Node.js 22+** e **pnpm**.
 
 ```bash
 git clone https://github.com/stumdev/nexora-ai.git
@@ -204,7 +204,7 @@ skills/   comandos de negócio em Markdown
 e2e/      testes ponta a ponta (Playwright) e um servidor Groq falso
 ```
 
-Stack: TypeScript, Node 20+, pnpm workspaces, Ink, Hono, React, Vite, Tailwind, better-sqlite3, Vitest, Playwright.
+Stack: TypeScript, Node 22+, pnpm workspaces, Ink, Hono, React, Vite, Tailwind, better-sqlite3, Vitest, Playwright.
 
 ## Testes
 
