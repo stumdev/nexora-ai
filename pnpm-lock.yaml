@@ -192,7 +192,7 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^1.19.19
-        version: 1.19.19(hono@4.13.19)
+        version: 1.19.19(hono@4.13.20)
       '@resvg/resvg-js':
         specifier: ^2.6.2
         version: 2.6.2
@@ -215,8 +215,8 @@ importers:
         specifier: ^3.3.3
         version: 3.3.3
       hono:
-        specifier: ^4.13.19
-        version: 4.13.19
+        specifier: ^4.13.20
+        version: 4.13.20
       ink:
         specifier: ^5.2.1
         version: 5.2.1(@types/react@18.3.31)(react@18.3.1)
@@ -281,13 +281,13 @@ importers:
     dependencies:
       '@hono/node-server':
         specifier: ^1.19.19
-        version: 1.19.19(hono@4.13.19)
+        version: 1.19.19(hono@4.13.20)
       '@nexora/core':
         specifier: workspace:*
         version: link:../core
       hono:
-        specifier: ^4.13.19
-        version: 4.13.19
+        specifier: ^4.13.20
+        version: 4.13.20
 
   web:
     dependencies:
@@ -1663,8 +1663,8 @@ packages:
     resolution: {integrity: sha512-nbfWpyRMcMrPMmDwJB+dhX/eiaPKtc2RB+0QZskqJ3WjRA/FDS0e9hZrx8EC/lbEv8gXy98FcDbNa/dspAaJMg==}
     engines: {node: '>=12.0.0'}
 
-  hono@4.13.19:
-    resolution: {integrity: sha512-KmXvQAXwcAHV+muzbIwoJ23niEB5nMoDVr9WcRkU8mvjUECm/1+7v4Jgp7P7a+H6MLFrh+vXrGonGrGS+RQfkA==}
+  hono@4.13.20:
+    resolution: {integrity: sha512-xo6gecEJQ+CjTtOUUbcLHE8CdRKMeF4qITe+DT+OhFnSUmZR/ZBa9XavAfiGh4HlukmlaHFdaK4dz5tkTYFNmA==}
     engines: {node: '>=16.9.0'}
 
   html-url-attributes@3.0.1:
@@ -2954,9 +2954,9 @@ snapshots:
   '@esbuild/win32-x64@0.28.2':
     optional: true
 
-  '@hono/node-server@1.19.19(hono@4.13.19)':
+  '@hono/node-server@1.19.19(hono@4.13.20)':
     dependencies:
-      hono: 4.13.19
+      hono: 4.13.20
 
   '@jridgewell/gen-mapping@0.3.13':
     dependencies:
@@ -3667,7 +3667,7 @@ snapshots:
 
   highlight.js@11.12.0: {}
 
-  hono@4.13.19: {}
+  hono@4.13.20: {}
 
   html-url-attributes@3.0.1: {}
 
